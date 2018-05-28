@@ -3,12 +3,4 @@ os: linux
 files:
    - source: /login.html
      destination: /usr/share/nginx/Login
-hooks:
-   BeforeInstall:
-    - location: scripts/installapache.sh
-      runas: root
-    - location: scripts/startapache.sh
-      runas: root
-   AfterInstall:
-    - location: scripts/restartapache.sh
-      runas: root
+
