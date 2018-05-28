@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
    - source: /Index.html
-     destination:  /var/www/html
+     destination: /usr/share/nginx/html/Login
 permissions:
    - object: /var/www/html
      pattern: "**"
