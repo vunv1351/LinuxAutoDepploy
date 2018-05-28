@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-   - source: /login.html
+   - source: /Index.html
      destination: /usr/share/nginx/Login
 
