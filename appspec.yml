@@ -1,9 +1,7 @@
 version: 0.0
 os: linux
 files:
-   - source: /Index.html
-     destination: /usr/share/nginx/html/Login
-   - source: image
+   - source: /
      destination: /usr/share/nginx/html/Login
 permissions:
    - object: /usr/share/nginx/html
