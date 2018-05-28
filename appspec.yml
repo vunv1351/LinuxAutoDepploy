@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /login.html
-     destination: /var/www/html
+     destination: /usr/share/nginx/Login
 permissions:
-   - object: /var/www/html
+   - object: /usr/share/nginx
      pattern: "**"
      owner: apache
      group: apache
