@@ -3,6 +3,8 @@ os: linux
 files:
    - source: /Index.html
      destination: /usr/share/nginx/html/Login
+     - source: /image
+     destination: /usr/share/nginx/html/Login
 permissions:
    - object: /var/www/html
      pattern: "**"
